@@ -10,7 +10,9 @@ module.exports = {
 		"browser": true,
 		"node": true
 	},
+	"plugins": ["import"],
 	"rules": {
+		"import/extensions": ["warn", "ignorePackages"],
 		"no-unused-vars": "error",
 		"no-undef": "error",
 		"eqeqeq": "error",
